@@ -37,10 +37,12 @@
         como te sientes ahora mismo... nunca te vuelvas a sentir así.
         </p>
         <h3>¡Deja tu comentario!</h3>
-        <textarea cols="50" rows="10" name="Comentario" id="Comentario" placeholder="Deja tu comentario..."></textarea>
-        <br>
-        <input type="file"/>
-        <label for="Compartir">Compartir</label>
-        <input type="button" name="Compartir" id="Compartir"/>
+        <form action="comentarios/" method="get">
+            <textarea cols="50" rows="10" name="Comentario" id="Comentario" placeholder="Deja tu comentario..."></textarea>
+            <br>
+            <input type="file"/>
+            <label for="Compartir">Compartir</label>
+            <button type="submit" name="Compartir" id="Compartir"/>
+        </form>
     </body>
 </html>
